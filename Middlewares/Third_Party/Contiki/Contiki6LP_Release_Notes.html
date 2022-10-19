@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Release Notes for Contiki6LP Middleware</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="_htmresc/mini-st_2020.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="icon" type="image/x-icon" href="_htmresc/favicon.png" />
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12 col-lg-4">
+<center>
+<h1 id="release-notes-for-contiki6lp-middleware">Release Notes for <mark>Contiki6LP Middleware</mark></h1>
+<a href="https://www.st.com" class="logo"><img src="_htmresc/st_logo_2020.png" alt="ST logo" /></a>
+</center>
+<h1 id="purpose">Purpose</h1>
+<p>Contiki6LP Library is a middleware for the the X-CUBE-SUBG1 expansion software. This middleware provides the 6LoWPAN functionality to enable a full IPv6 mesh network to be build using STM32 ODE Hardware components.</p>
+<p>Contiki6LP software features:</p>
+<ul>
+<li>Middleware library with Contiki OS and Contiki 6LoWPAN protocol stack 3.x</li>
+<li>Support for mesh networking technology by the means of the standard RPL protocol</li>
+<li>Easy portability across different STM32 MCU families thanks to STM32Cube.</li>
+<li>Sample applications enabling communication via UDP over 6LoWPAN.</li>
+<li>Sample application configuring a node as “RPL border router”</li>
+<li>Free user-friendly license terms</li>
+<li>Examples available for NUCLEO-F401RE and NUCLEO-L152RE boards.</li>
+<li>ST platform specific implementation is provided in Contiki_STM32_Library middleware.</li>
+</ul>
+</div>
+<div class="col-sm-12 col-lg-8">
+<h1 id="update-history">Update History</h1>
+<div class="collapse">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>1.5.0 / April 19th 2021</strong></label>
+<div>
+<h2 id="main-changes">Main Changes</h2>
+<ul>
+<li>Patch in uip-icmp6.c to avoid random memove with negative offset</li>
+</ul>
+<h2 id="contents">Contents</h2>
+<ul>
+<li>Documentation
+<ul>
+<li>Doxygen documentation: <a href="..\..\..\Documentation\Contiki6LP.chm">Contiki6LP.chm</a></li>
+</ul></li>
+<li>Middlewares
+<ul>
+<li>Contiki OS v3.x</li>
+<li>version updated to commit bc2e445817aa546c0bb93a9900093ec276005e2a from <a href="https://github.com/contiki-os/contiki">https://github.com/contiki-os/contiki</a> repository
+<ul>
+<li>Includes (in apps) TinyDTLS v0.8.6 derived and modifed starting from commit cc5863fa0e438ba1fa46c05f2a27cd8dd3d85b96 on <a href="https://git.eclipse.org/r/tinydtls/org.eclipse.tinydtls">https://git.eclipse.org/r/tinydtls/org.eclipse.tinydtls</a></li>
+<li>Includes DTLS CoAP bindings derived and modified from commit 98a3eac5d0570a98fe7245b4e16e90c9ecab14d4 on develop branch of <a href="https://github.com/cetic/6lbr.git">https://github.com/cetic/6lbr.git</a></li>
+<li>Includes preliminary X.509 support derived by earlier version of IoTivity constrained from <a href="https://github.com/iotivity/iotivity-constrained">https://github.com/iotivity/iotivity-constrained</a></li>
+<li>Some internal bugfix</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="development-toolchains-and-compilers">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V8.50.9 + ST-Link</li>
+<li>Keil Microcontroller Development Kit (MDK-ARM) toolchain V5.32 + ST-Link</li>
+<li>STM32CubeIDE 1.6.1 + ST-LINK</li>
+</ul>
+<h2 id="supported-devices-and-eval-boards">Supported Devices and EVAL boards</h2>
+<ul>
+<li>STM32F401RE and STM32L152RE devices</li>
+<li>NUCLEO-F401RE Board RevC</li>
+<li>NUCLEO-L152RE Board RevC</li>
+<li>X-NUCLEO-IDS01A4 Board</li>
+<li>X-NUCLEO-IDS01A5 Board</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>1.4.0 / December 10th 2018</strong></label>
+<div>
+<h2 id="main-changes-1">Main Changes</h2>
+<ul>
+<li>Added TinyDTLS bindings for CoAP stack</li>
+<li>ContikiMAC slightly modified to be supported by Contiki_STM32_Library V1.1.0</li>
+</ul>
+<h2 id="contents-1">Contents</h2>
+<ul>
+<li>Documentation
+<ul>
+<li>Doxygen documentation: <a href="..\..\..\Documentation\Contiki6LP.chm">Contiki6LP.chm</a></li>
+</ul></li>
+<li>Middlewares
+<ul>
+<li>Contiki OS v3.x</li>
+<li>version updated to commit bc2e445817aa546c0bb93a9900093ec276005e2a from <a href="https://github.com/contiki-os/contiki">https://github.com/contiki-os/contiki</a> repository
+<ul>
+<li>Includes (in apps) TinyDTLS v0.8.6 derived and modifed starting from commit cc5863fa0e438ba1fa46c05f2a27cd8dd3d85b96 on <a href="https://git.eclipse.org/r/tinydtls/org.eclipse.tinydtls">https://git.eclipse.org/r/tinydtls/org.eclipse.tinydtls</a></li>
+<li>Includes DTLS CoAP bindings derived and modified from commit 98a3eac5d0570a98fe7245b4e16e90c9ecab14d4 on develop branch of <a href="https://github.com/cetic/6lbr.git">https://github.com/cetic/6lbr.git</a></li>
+<li>Includes preliminary X.509 support derived by earlier version of IoTivity constrained from <a href="https://github.com/iotivity/iotivity-constrained">https://github.com/iotivity/iotivity-constrained</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="development-toolchains-and-compilers-1">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V8.20.2 + ST-Link</li>
+<li>Keil Microcontroller Development Kit (MDK-ARM) toolchain V5.24.2 + ST-Link</li>
+<li>System Workbench for STM32 (SW4STM32) toolchain v1.16.0 (IDE 2.5.0) + ST-LINK</li>
+</ul>
+<h2 id="supported-devices-and-eval-boards-1">Supported Devices and EVAL boards</h2>
+<ul>
+<li>STM32F401RE and STM32L152RE devices</li>
+<li>NUCLEO-F401RE Board RevC</li>
+<li>NUCLEO-L152RE Board RevC</li>
+<li>X-NUCLEO-IDS01A4 Board</li>
+<li>X-NUCLEO-IDS01A5 Board</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>1.3.0 / June 1st 2018</strong></label>
+<div>
+<h2 id="main-changes-2">Main Changes</h2>
+<ul>
+<li>Update for SUBG1 3.0.0</li>
+<li>Support of S2-LP Radio</li>
+<li>Update of IAR and Keil projects.</li>
+</ul>
+<h2 id="contents-2">Contents</h2>
+<ul>
+<li>Documentation
+<ul>
+<li>Doxygen documentation: <a href="..\..\..\Documentation\Contiki6LP.chm">Contiki6LP.chm</a></li>
+</ul></li>
+<li>Middlewares
+<ul>
+<li>Contiki OS v3.x</li>
+<li>version updated to commit bc2e445817aa546c0bb93a9900093ec276005e2a from <a href="https://github.com/contiki-os/contiki">https://github.com/contiki-os/contiki</a> repository</li>
+<li>STM32_Contiki_Library</li>
+</ul></li>
+</ul>
+<h2 id="development-toolchains-and-compilers-2">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V8.11.3 + ST-Link</li>
+<li>Keil Microcontroller Development Kit (MDK-ARM) toolchain V5.24.2 + ST-Link</li>
+<li>System Workbench for STM32 1.15.0 + ST-LINK</li>
+</ul>
+<h2 id="supported-devices-and-eval-boards-2">Supported Devices and EVAL boards</h2>
+<ul>
+<li>STM32F401RE and STM32L152RE devices</li>
+<li>NUCLEO-F401RE Board RevC</li>
+<li>NUCLEO-L152RE Board RevC</li>
+<li>X-NUCLEO-IDS01A4 Board</li>
+<li>X-NUCLEO-IDS01A5 Board</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>1.2.0 / May 11th 2017</strong></label>
+<div>
+<h2 id="main-changes-3">Main Changes</h2>
+<ul>
+<li>First integration as a Middleware of X-CUBE-SUBG1</li>
+<li>Update of IAR and Keil projects.</li>
+</ul>
+<h2 id="contents-3">Contents</h2>
+<ul>
+<li>Documentation
+<ul>
+<li>Doxygen documentation: <a href="..\..\..\Documentation\Contiki6LP.chm">Contiki6LP.chm</a></li>
+</ul></li>
+<li>Middlewares
+<ul>
+<li>Contiki OS v3.x</li>
+<li>version updated to commit 3c150a5e992372ecfbedee4020b05f1b56f73ed2 from <a href="https://github.com/contiki-os/contiki">https://github.com/contiki-os/contiki</a> repository</li>
+<li>STM32_Contiki_Library</li>
+</ul></li>
+</ul>
+<h2 id="development-toolchains-and-compilers-3">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V7.80 + ST-Link</li>
+<li>Keil Microcontroller Development Kit (MDK-ARM) toolchain V5.23 + ST-Link</li>
+<li>System Workbench for STM32 1.13.1 + ST-LINK</li>
+</ul>
+<h2 id="supported-devices-and-eval-boards-3">Supported Devices and EVAL boards</h2>
+<ul>
+<li>STM32F401RE and STM32L152RE devices</li>
+<li>NUCLEO-F401RE Board RevC</li>
+<li>NUCLEO-L152RE Board RevC</li>
+<li>X-NUCLEO-IDS01A4 Board</li>
+<li>X-NUCLEO-IDS01A5 Board</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>1.1.0 / November 8th 2016</strong></label>
+<div>
+<h2 id="main-changes-4">Main Changes</h2>
+<ul>
+<li>Update of Applications to use X-CUBE-SUBG1 V1.2.0</li>
+<li>Update of Third Party Contiki Library Middleware</li>
+<li>Update of ST Contiki (STM32_Contiki_Library) Middleware: code cleanup and different radio parameters selection</li>
+</ul>
+<h2 id="contents-4">Contents</h2>
+<ul>
+<li>Middlewares
+<ul>
+<li>Contiki OS v3.x</li>
+<li>version updated to commit c05665a16b875f7c140e8110b913c32c7d430078 from <a href="https://github.com/contiki-os/contiki">https://github.com/contiki-os/contiki</a> repository</li>
+<li>STM32_Contiki_Library</li>
+</ul></li>
+</ul>
+<h2 id="development-toolchains-and-compilers-4">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V7.70 + ST-Link</li>
+<li>Keil Microcontroller Development Kit (MDK-ARM) toolchain V5.18 + ST-Link</li>
+<li>System Workbench for STM32 1.10 + ST-LINK</li>
+</ul>
+<h2 id="supported-devices-and-eval-boards-4">Supported Devices and EVAL boards</h2>
+<ul>
+<li>STM32F401RE and STM32L152RE devices</li>
+<li>NUCLEO-F401RE Board RevC</li>
+<li>NUCLEO-L152RE Board RevC</li>
+<li>X-NUCLEO-IDS01A4 Board</li>
+<li>X-NUCLEO-IDS01A5 Board</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>1.0.0 / March 16th 2016</strong></label>
+<div>
+<h2 id="main-changes-5">Main Changes</h2>
+<ul>
+<li>First release</li>
+</ul>
+<h2 id="contents-5">Contents</h2>
+<ul>
+<li>Middlewares
+<ul>
+<li>Contiki OS v3.x</li>
+<li>version updated to commit df5ff896a8825cbfa7f3139e6f6bf8f73eaf9274 from <a href="https://github.com/contiki-os/contiki">https://github.com/contiki-os/contiki</a> repository</li>
+<li>STM32_Contiki_Library</li>
+</ul></li>
+</ul>
+<h2 id="development-toolchains-and-compilers-5">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V7.50.2 + ST-Link</li>
+<li>RealView Microcontroller Development Kit (MDK-ARM) toolchain V5.17.0 + ST-Link</li>
+<li>System Workbench for STM32 1.7.0.201602121829 + ST-LINK</li>
+</ul>
+<h2 id="supported-devices-and-eval-boards-5">Supported Devices and EVAL boards</h2>
+<ul>
+<li>STM32F401RE and STM32L152RE devices</li>
+<li>NUCLEO-F401RE Board RevC</li>
+<li>NUCLEO-L152RE Board RevC</li>
+<li>X-NUCLEO-IDS01A4 Board</li>
+<li>X-NUCLEO-IDS01A5 Board</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<footer class="sticky">
+<div class="columns">
+<div class="column" style="width:95%;">
+
+</div><div class="column" style="width:5%;">
+
+</div>
+</div>
+</footer>
+</body>
+</html>

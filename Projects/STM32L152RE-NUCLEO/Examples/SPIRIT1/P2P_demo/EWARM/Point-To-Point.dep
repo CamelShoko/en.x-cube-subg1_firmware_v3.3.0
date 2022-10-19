@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4010007739</fileChecksum>
+    <configuration>
+        <name>SPIRIT1_STM32L152RE_Nucleo</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Commands.c</file>
+            <file>$PROJ_DIR$\..\Src\radio_appli.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Csma.c</file>
+            <file>$PROJ_DIR$\..\Src\cube_hal_l1.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32l1xx_it.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Calibration.c</file>
+            <file>$PROJ_DIR$\startup_stm32l152xe.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Qi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_shield_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_comp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Management.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Radio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L1xx_Nucleo\stm32l1xx_nucleo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_General.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktBasic.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Util\Src\SPIRIT1_Util.c</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32l1xx.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_DirectRF.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktCommon.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktMbus.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktStack.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Types.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Irq.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_LinearFifo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Irq.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2s.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Commands.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l152xe.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_comp.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ramfunc.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_gpio.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_iwdg.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_spi.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_iwdg.xcl</file>
+            <file>$PROJ_DIR$\..\Inc\cube_hal.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_LinearFifo.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cryp.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Management.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dac_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\system_stm32l1xx.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cortex.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Management.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\startup_stm32l152xe.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Inc\radio_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Management.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_DirectRF.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktMbus.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Commands.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\cube_hal_l1.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi_ex.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_shield_config.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Inc\stm32l1xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L1xx_Nucleo\stm32l1xx_nucleo.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Qi.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_irda.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cryp.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Aes.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_crc.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktStack.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Inc\p2p_lib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Util\Inc\SPIRIT1_Util.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktStack.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktMbus.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktCommon.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_nucleo.xcl</file>
+            <file>$PROJ_DIR$\stm32l152xe_flash.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc_ex.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_DirectRF.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Types.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_LinearFifo.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Calibration.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Commands.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ex.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Calibration.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktStack.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_General.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_it.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT1_Util.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr_ex.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_it.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Radio.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Csma.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_gpio.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Gpio.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\system_stm32l1xx.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Types.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_comp.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktCommon.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_iwdg.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ramfunc.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Gpio.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktBasic.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktCommon.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_DirectRF.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Calibration.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Inc\radio_shield_config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_crc.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Irq.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktBasic.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\main.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_nucleo.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_shield_config.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\cube_hal_l1.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\List\Point-To-Point.map</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Types.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Aes.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Aes.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Csma.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktMbus.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktBasic.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\MCU_Interface.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_iwdg.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dma.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cryp_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_lcd.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2s.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cortex.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_irda.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktMbus.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cryp.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2s.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2s.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT1_Util.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_comp.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Radio.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Qi.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Qi.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Inc\stm32l1xx_it.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm3.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktCommon.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Exe\STM32L152RE-Nucleo_P2P.bin</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_lcd.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_irda.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_gpio.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Exe\Point-To-Point.out</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_lcd.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Radio.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dac_ex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\system_stm32l1xx.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Irq.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dac_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_shield_config.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Types.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Csma.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Timer.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dac.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cryp_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cortex.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Aes.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktBasic.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_General.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Config.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Qi.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Csma.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dac.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ramfunc.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_spi.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\cube_hal_l1.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_LinearFifo.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_General.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_crc.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_appli.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Radio.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_appli.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Timer.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_PktStack.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Calibration.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio_ex.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_General.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_LinearFifo.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT1_Util.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Regs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cryp_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_irda.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Timer.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_DirectRF.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Inc\radio_spi.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\SPIRIT_Management.__cstat.et</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi_ex.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr_ex.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\..\Inc\radio_appli.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Commands.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Irq.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc_ex.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ramfunc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_lcd.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_it.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dac.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\radio_appli.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_nucleo.o</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2c.xcl</file>
+            <file>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 221 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Aes.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 238</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Commands.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 286 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\radio_appli.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 253</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 300</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 285 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85 150 242 269 163 109 112 286 232 147 119 266 288 123 267 141 214 169 100 207 223 173 63 98 99 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Csma.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232 109 227 189 93 54 43 216 151 235 269 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\cube_hal_l1.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 249</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 283</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85 150 285 242 269 163 109 112 286 232 147 119 266 288 123 267 141 214 169 100 207 223 173 63 98 99 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32l1xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 296</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 85 150 285 242 269 163 109 112 286 232 147 119 266 288 123 267 141 214 169 100 207 223 173 63 98 99 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Calibration.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32l152xe.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Qi.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_shield_config.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_comp.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 237</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 252</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 234</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 299</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Timer.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 259</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123 269 109 227 189 93 54 43 216 151 235 223 242 163 112 286 232 147 119 266 288 267 141 214 169 100 207 173 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 277 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85 242 269 163 109 112 286 232 147 119 266 288 123 267 141 214 169 100 207 223 173 63 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Management.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 280</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 242 269 163 109 227 189 93 54 43 216 151 235 112 286 232 147 119 266 288 123 267 141 214 169 100 207 223 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Radio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 206</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223 269 109 227 189 93 54 43 216 151 235 242 163 112 286 232 147 119 266 288 123 267 141 214 169 100 207 173 63 149 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L1xx_Nucleo\stm32l1xx_nucleo.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 301</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_General.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 251</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 265</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktBasic.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 269 109 227 189 93 54 43 216 151 235 214 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Util\Src\SPIRIT1_Util.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99 242 269 163 109 227 189 93 54 43 216 151 235 112 286 232 147 119 266 288 123 267 141 214 169 100 207 223 173 63 69 60 290 82 298 135 274 46 212 56 49 146 244 168 241 297 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85 285 150 98</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32l1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 290 82 298 135 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 266 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_DirectRF.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 276</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktCommon.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktMbus.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169 269 109 227 189 93 54 43 216 151 235 214 223 242 163 112 286 232 147 119 266 288 123 267 141 100 207 173 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktStack.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100 269 109 227 189 93 54 43 216 151 235 214 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Types.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 227 189 93 54 43 216 151 235 269 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Irq.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 288 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_LinearFifo.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 250</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 267 269 109 227 189 93 54 43 216 151 235 173</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 60 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263 210 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 292</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 179</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 291</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 258</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 289</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 287</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_lcd.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 295</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 278</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 303</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2s.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 302</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_irda.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 218</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 282</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 281</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 272</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 279</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290 82 298 135 274 46 212 227 189 93 54 43 216 56 49 146 244 168 241 297 151 235 106 134 264 108 66 257 116 247 256 124 270 213 161 80 145 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SPIRIT1_STM32L152RE_Nucleo\Exe\Point-To-Point.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 105 249 156 300 52 158 248 268 92 262 45 245 276 265 129 41 61 67 155 142 101 260 243 254 275 231 68 91 140 50 47 55 252 62 236 246 64 175 138 220 51 211 86 200 88 53 217 48 144 303 258 44 281 40 153 296 301 65 261 293 294 284</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>
